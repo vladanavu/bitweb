@@ -1,0 +1,10 @@
+#par1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+#part2{
+    text-transform: lowercase;
+    text-transform: line-through;
+}
