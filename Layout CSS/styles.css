@@ -1,0 +1,66 @@
+#cat {
+    position: relative;
+    top: 50px;
+    left:100px;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 100px;
+}
+#tree {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 250px;
+    height: 250px;
+}
+#shark {
+    position: absolute;
+    bottom: 0px;
+    width: 400px;
+    height: 250px;
+}
+#back{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+body {
+    background-color: #ddd
+}
+
+#menu {
+    padding: 10px;
+    background-color: orange
+}
+#menu > li {
+    position: relative;
+    display: inline-block;
+    padding:10px;
+}
+#menu > li > ul {
+    position: absolute;
+    display:none ;
+    left:0px;
+    top:100%;
+    padding: 0px;
+}
+#menu > li > ul > li {
+  min-width: 120px;
+    padding: 10px 20px;  
+    display: block;
+    background-color: white
+}
+#menu > li ul li:hover {
+    background-color: #ddd
+}
+#menu > li:hover {
+    background-color: white
+}
+#menu > li:hover #submenu {
+    display:block;
+}
+ #submenu a  {
+     color: aqua;
+   text-decoration: none;
+}

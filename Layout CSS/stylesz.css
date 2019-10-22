@@ -1,0 +1,70 @@
+div {
+    width:200px;
+    height:200px;
+    
+}
+#blue {
+
+    background-color: #2d3e50;
+}
+#red {
+
+    background-color: #c1392b
+}
+#yellow {
+    
+    background-color: #ffbe00
+}
+
+#blueone {
+    z-index: 2;
+    background-color: #2d3e50;
+    position: relative;
+    top: -188px;
+    left: 200px;
+s
+}
+#redone {
+    z-index: 0;
+    background-color: #c1392b;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+#yellowone {
+    z-index: 1;
+    background-color: #ffbe00;
+    position: relative;
+    top: -100px;
+    left: 100px;
+   
+
+}
+#bluetwo {
+      z-index: 1;
+     background-color : #2d3e50;
+     position: absolute;
+     top:1443px;
+     right:212px;
+}
+#redtwo {
+
+    z-index: 3;
+    background-color: #c1392b;
+    position: absolute;
+    right:0px;
+}
+#yellowtwo {
+
+    z-index: 2;
+    background-color: #ffbe00;
+    position: absolute;
+    top:1340px;
+    right:120px;
+
+}
+
+position: absolute;
+top: 0px;
+right: 0px;
