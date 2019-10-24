@@ -1,0 +1,181 @@
+/*FONTS*/
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Roboto-Bold";
+    src: url(./fonts/Roboto-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Roboto-Thin";
+    src: url(./fonts/Roboto-Thin.ttf);
+  }
+  
+  @font-face {
+    font-family: "Roboto-Light";
+    src: url(./fonts/Roboto-Light.ttf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+
+/* ------------------General style-------------------- */
+#menu{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#main-wrap{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+   
+}
+
+.cf:after,
+.cf::before {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear: both;
+}
+
+
+
+/*HEADER*/
+
+ #menu > li {
+    float: right;
+    padding: 20px;
+    color:white;
+    font-weight: 200;
+
+    }
+
+
+
+#header {
+    position: relative;
+    width: 100%;
+}
+
+#logo {
+font-size: 40px;
+
+
+}
+
+#logo > span {
+    color: #fd9727;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+
+
+#main-text{
+    position:absolute;
+    top: 44%;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    left: 2%;
+    right: 2%;
+    font-weight: 100;
+    font-family: "Roboto-Light";
+
+    
+}
+
+#banner{
+    display: block;
+    width: 100%;
+}
+
+#navigation {
+    float: right;
+   
+}
+
+#logo-container {
+  
+    float: left;
+}
+
+#logo-and-menu{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#read-more{
+    padding: 10px 25px 11px;
+    background-color: rgb(50, 94, 199);
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    border: none;
+}
+
+/* --------------------------SECTION 2------------------------------------- */
+
+#head2 {
+    font-family: "Roboto-Light";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    text-align: center;
+}
+
+
+
+#line-down {
+    border-bottom:  2px solid black; 
+    display: inline-block;
+    right: 7px;
+    width: 120px;
+    position: relative; 
+}
+
+#line-down2 {
+    border-bottom:  2px solid black; 
+    display: inline-block;
+    left: 7px;
+    right: 5px;
+    width: 120px;
+    position: relative;
+}
+    
+
+#square {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 11px; 
+}
+
+#underline {
+    margin-left:auto;
+    margin-right:auto;
+    width: 15%;
+}
+
+#underline > div {
+    float: left;
+}
