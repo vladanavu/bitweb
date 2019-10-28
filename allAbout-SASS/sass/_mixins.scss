@@ -1,0 +1,6 @@
+@mixin textShadow($shadows) {
+    color: $shadows;
+ }
+ 
+ h2 { @include textShadow(red);
+}
