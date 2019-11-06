@@ -1,0 +1,17 @@
+.sample {
+  background-color: orange;
+  color: blue;
+}
+.li-color {
+  background-color: navy;
+}
+.third-lis {
+  background-color: lightpink;
+  text-transform: lowercase;
+}
+.active {
+  background-color: lightblue;
+}
+.slika {
+  height: 100px;
+}
