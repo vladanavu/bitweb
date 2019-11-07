@@ -26,7 +26,7 @@
 // elementAndId("third", "li", "third-lis");
 
 //Traversing
-/* 
+/*
 function selectListItem() {
   var selected = document.querySelector(".active");
   var previousLi = document.querySelector(".active").previousElementSibling;
@@ -41,7 +41,7 @@ selectListItem(); */
 
 // Access/Update Text Node
 
-function alertContent(id) {
+/* function alertContent(id) {
   var selected = document.getElementById(id);
   alert(selected.textContent);
 }
@@ -59,4 +59,82 @@ function testingQuery() {
     selected[i].innerHTML = "<img class='slika' src='../1.jpg'>";
   }
 }
-testingQuery();
+testingQuery(); */
+
+//InnerHTML
+//prvi deo zadatka:
+
+/* var arr = ['aaa', 'bbb', 'ccc'];
+var parent = document.querySelector('body');
+
+function selectMenu(arr, parent) {
+  var select = document.createElement("select");
+
+
+  for (var i = 0; i < arr.length; i++) {
+    var option = document.createElement('option');
+    var text = document.createTextNode(arr[i]);
+
+    option.appendChild(text);
+    select.appendChild(option)
+
+  }
+  parent.appendChild(select);
+
+}
+
+selectMenu(arr, parent);
+*/
+
+
+//drugi nacin sa innerHTML:
+
+/* var arr = ['aaa', 'bbb', 'ccc'];
+var parent = document.querySelector("body");
+
+function selectMenu(arr, parent) {
+  var select = document.createElement("select");
+  var options = "";
+
+  for (var i = 0; i < arr.length; i++) {
+    options = options + "<option>" + arr[i] + "</option>";
+  }
+  select.innerHTML = options;
+  parent.appendChild(select);
+
+}
+selectMenu(arr, parent);
+ */
+
+
+
+
+/* var parent = document.querySelector("body");
+var forma = document.createElement("form")
+ */
+//Attributes:
+
+
+var parent = document.querySelector("body");
+var br = "\n";
+
+
+function forma() {
+  var form = document.createElement("form");
+
+
+  for (var i = 0; i < 3; i++) {
+    var input = document.createElement("input");
+    form.appendChild(input);
+    if (input.value === "") {
+      input.style = "border: 1px solid red";
+    }
+  }
+
+
+  parent.appendChild(form);
+}
+
+forma();
+
+
